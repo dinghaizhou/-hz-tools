@@ -2,4 +2,11 @@ function add (a, b) {
     return a + b;
 }
 
-export default add;
+function version() {
+    console.log('1.0.8');
+}
+
+module.exports = {
+    add,
+    version
+}
